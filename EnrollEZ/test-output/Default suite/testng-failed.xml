@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.kt.enrollez.Broker_AddEmployer_TestCase">
+        <methods>
+          <include name="close_Browse"/>
+          <include name="Verify_Applications"/>
+          <include name="setup_Browser"/>
+          <include name="Client_Representative" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.kt.enrollez.Broker_AddEmployer_TestCase -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

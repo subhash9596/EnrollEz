@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.kt.enrollez.Broker_Login_TestCase">
+        <methods>
+          <include name="setup_Browser"/>
+          <include name="close_Browse"/>
+        </methods>
+      </class> <!-- com.kt.enrollez.Broker_Login_TestCase -->
+      <class name="com.kt.enrollez.Broker_AddEmployer_TestCase">
+        <methods>
+          <include name="close_Browse"/>
+          <include name="AddEmployer_CompanyInformation" invocation-numbers="0"/>
+          <include name="Verify_Applications"/>
+          <include name="setup_Browser"/>
+          <include name="Client_Representative" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.kt.enrollez.Broker_AddEmployer_TestCase -->
+      <class name="com.kt.enrollez.Broker_Representaive_TestCase">
+        <methods>
+          <include name="close_Browse"/>
+          <include name="setup_Browser"/>
+        </methods>
+      </class> <!-- com.kt.enrollez.Broker_Representaive_TestCase -->
+      <class name="com.kt.enrollez.Broker_Dashbaord_TestCase">
+        <methods>
+          <include name="setup_Browser"/>
+          <include name="Activity_Tab"/>
+          <include name="CountSummary_Tab"/>
+          <include name="close_Browse"/>
+        </methods>
+      </class> <!-- com.kt.enrollez.Broker_Dashbaord_TestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>E:\package\EnrollEZ\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">35 methods, 6 failed,   29 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Dashbaord_TestCase" hash-for-method="Activity_Tab">Activity_Tab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_AddEmployer_TestCase" hash-for-method="AddEmployer_CompanyInformation(TC03, Valid, KT19, 5865847584, Street -01, Street -01, pune , India, Goa, 60012, TestDescripton, 12/...)">AddEmployer_CompanyInformation(TC03, Valid, KT19, 5865847584, Street -01, Street -01, pune , India, Goa, 60012, TestDescripton, 12/...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_AddEmployer_TestCase" hash-for-method="Client_Representative(KTBTC01, BlankInfo,  ,  ,  ,  ,  ,  , &gt;&gt; Select,  ,  ,  ,  ,  , required.)">Client_Representative(KTBTC01, BlankInfo,  ,  ,  ,  ,  ,  , >> Select,  ,  ,  ,  ,  , required.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_AddEmployer_TestCase" hash-for-method="Client_Representative(KTBTC01, BlankInfo, HR Manager , John , Doe , Street-01 , Street-02 ,  , &gt;&gt; Select,  ,  ,  ,  ,  , r...)">Client_Representative(KTBTC01, BlankInfo, HR Manager , John , Doe , Street-01 , Street-02 ,  , >> Select,  ,  ,  ,  ,  , r...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Dashbaord_TestCase" hash-for-method="CountSummary_Tab">CountSummary_Tab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_AddEmployer_TestCase" hash-for-method="Verify_Applications">Verify_Applications</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Representaive_TestCase" hash-for-method="Add_BrokerRep(KTBTC01, BlankInfo,  ,  ,  ,  ,  , &gt;&gt; Select, &gt;&gt; Select,  ,  ,  , required.)">Add_BrokerRep(KTBTC01, BlankInfo,  ,  ,  ,  ,  , >> Select, >> Select,  ,  ,  , required.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Representaive_TestCase" hash-for-method="Add_BrokerRep(KTBTC03, ValidInfo, Sunil, Kumar, Street-01, Street-02, pune, India, Goa, 652152, 9999999999, test4@...)">Add_BrokerRep(KTBTC03, ValidInfo, Sunil, Kumar, Street-01, Street-02, pune, India, Goa, 652152, 9999999999, test4@...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Representaive_TestCase" hash-for-method="Add_BrokerRep(KTBTC02, InvalidInfo, Sunil, Kumar, Street-01, Street-02, pune, India, Goa, 652152, 9999, test4gmail...)">Add_BrokerRep(KTBTC02, InvalidInfo, Sunil, Kumar, Street-01, Street-02, pune, India, Goa, 652152, 9999, test4gmail...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Representaive_TestCase" hash-for-method="Delete_Rep">Delete_Rep</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Dashbaord_TestCase" hash-for-method="Employer_Tab">Employer_Tab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Representaive_TestCase" hash-for-method="Update_BrokerRep(TC03, ValidInfo, Sunil, Street-01, Street-02, pune, India, Goa, 652152, 9999999999, test4@gmail.com,...)">Update_BrokerRep(TC03, ValidInfo, Sunil, Street-01, Street-02, pune, India, Goa, 652152, 9999999999, test4@gmail.com,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Representaive_TestCase" hash-for-method="Update_BrokerRep(TC01, BlankdData,  ,  ,  ,  , &gt;&gt; Select, &gt;&gt; Select,  ,  ,  , required.)">Update_BrokerRep(TC01, BlankdData,  ,  ,  ,  , >> Select, >> Select,  ,  ,  , required.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Representaive_TestCase" hash-for-method="Update_BrokerRep(TC02, InvalidInfo, Sunil, Street-01, Street-02, pune, India, Goa, 652152, 9999, test4gmail.com, Plea...)">Update_BrokerRep(TC02, InvalidInfo, Sunil, Street-01, Street-02, pune, India, Goa, 652152, 9999, test4gmail.com, Plea...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Representaive_TestCase" hash-for-method="VerifyClick">VerifyClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Dashbaord_TestCase" hash-for-method="Verify_AddEmployer_link">Verify_AddEmployer_link</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Login_TestCase" hash-for-method="Verify_Application_Title">Verify_Application_Title</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Login_TestCase" hash-for-method="Verify_Application_Url">Verify_Application_Url</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Dashbaord_TestCase" hash-for-method="Verify_BrokerRep_link">Verify_BrokerRep_link</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Representaive_TestCase" hash-for-method="Verify_Cancel_Broker(TC01, VerifyCancelFunctionality, Sunil, Kumar, Street-01, Street-02, pune, India, Goa, 652152, 99999...)">Verify_Cancel_Broker(TC01, VerifyCancelFunctionality, Sunil, Kumar, Street-01, Street-02, pune, India, Goa, 652152, 99999...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Dashbaord_TestCase" hash-for-method="Verify_Credentials_link">Verify_Credentials_link</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Dashbaord_TestCase" hash-for-method="Verify_Details_link">Verify_Details_link</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Dashbaord_TestCase" hash-for-method="Verify_EmployerList_link">Verify_EmployerList_link</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Login_TestCase" hash-for-method="Verify_Login(KTB03, ValidData, TestBroker, 12345678, Welcome TestBroker!)">Verify_Login(KTB03, ValidData, TestBroker, 12345678, Welcome TestBroker!)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Login_TestCase" hash-for-method="Verify_Login(KTB01, DatawithBlank, , , Login was unsuccessful. Please check your login information and retry.)">Verify_Login(KTB01, DatawithBlank, , , Login was unsuccessful. Please check your login information and retry.)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Login_TestCase" hash-for-method="Verify_Login(KTB02, invalidData, abc, 1234, Login was unsuccessful. Please check your login information and retry...)">Verify_Login(KTB02, invalidData, abc, 1234, Login was unsuccessful. Please check your login information and retry...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_AddEmployer_TestCase" hash-for-method="Verify_Login_WithValidInputs">Verify_Login_WithValidInputs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Dashbaord_TestCase" hash-for-method="Verify_Login_WithValidInputs">Verify_Login_WithValidInputs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Representaive_TestCase" hash-for-method="Verify_Login_WithValidInputs">Verify_Login_WithValidInputs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Login_TestCase" hash-for-method="Verify_Logo">Verify_Logo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Login_TestCase" hash-for-method="Verify_Placeholder_ofAllfields">Verify_Placeholder_ofAllfields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Dashbaord_TestCase" hash-for-method="Verify_SearchEmployee_link">Verify_SearchEmployee_link</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Dashbaord_TestCase" hash-for-method="Verify_SearchEmployer_link">Verify_SearchEmployer_link</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Dashbaord_TestCase" hash-for-method="Verify_UserList_link">Verify_UserList_link</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.kt.enrollez.Broker_Representaive_TestCase" hash-for-method="printTable">printTable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.kt.enrollez.Broker_AddEmployer_TestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddEmployer_CompanyInformation(TC03, Valid, KT19, 5865847584, Street -01, Street -01, pune , India, Goa, 60012, TestDescripton, 12/...)">
+                  </a> <!-- AddEmployer_CompanyInformation(TC03, Valid, KT19, 5865847584, Street -01, Street -01, pune , India, Goa, 60012, TestDescripton, 12/...) -->
+                  <span class="method-name">AddEmployer_CompanyInformation</span>
+                  <span class="parameters">(TC03, Valid, KT19, 5865847584, Street -01, Street -01, pune , India, Goa, 60012, TestDescripton, 12/01/2019, 12/31/2019, 1000, You have successfully added employer basic information. Please select applications for authorization. )</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class=&apos;success&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;SUBHASHA-PC&apos;, ip: &apos;192.168.1.203&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10436, moz:profile: C:\Users\Subhash\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f1485bd-511b-4248-9d6a-98412d1170ce
+*** Element info: {Using=xpath, value=//div[@class=&apos;success&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at com.kt.enrollez.Broker_AddEmployer_TestCase.AddEmployer_CompanyInformation(Broker_AddEmployer_TestCase.java:106)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Client_Representative(KTBTC01, BlankInfo,  ,  ,  ,  ,  ,  , &gt;&gt; Select,  ,  ,  ,  ,  , required.)">
+                  </a> <!-- Client_Representative(KTBTC01, BlankInfo,  ,  ,  ,  ,  ,  , >> Select,  ,  ,  ,  ,  , required.) -->
+                  <span class="method-name">Client_Representative</span>
+                  <span class="parameters">(KTBTC01, BlankInfo,  ,  ,  ,  ,  ,  , >> Select,  ,  ,  ,  ,  , required.)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id=&apos;RepresentativeDesignation&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;SUBHASHA-PC&apos;, ip: &apos;192.168.1.203&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10436, moz:profile: C:\Users\Subhash\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f1485bd-511b-4248-9d6a-98412d1170ce
+*** Element info: {Using=xpath, value=//input[@id=&apos;RepresentativeDesignation&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at com.kt.enrollez.Broker_AddEmployer_TestCase.Client_Representative(Broker_AddEmployer_TestCase.java:148)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Client_Representative(KTBTC01, BlankInfo, HR Manager , John , Doe , Street-01 , Street-02 ,  , &gt;&gt; Select,  ,  ,  ,  ,  , r...)">
+                  </a> <!-- Client_Representative(KTBTC01, BlankInfo, HR Manager , John , Doe , Street-01 , Street-02 ,  , >> Select,  ,  ,  ,  ,  , r...) -->
+                  <span class="method-name">Client_Representative</span>
+                  <span class="parameters">(KTBTC01, BlankInfo, HR Manager , John , Doe , Street-01 , Street-02 ,  , >> Select,  ,  ,  ,  ,  , required.)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id=&apos;RepresentativeDesignation&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;SUBHASHA-PC&apos;, ip: &apos;192.168.1.203&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10436, moz:profile: C:\Users\Subhash\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f1485bd-511b-4248-9d6a-98412d1170ce
+*** Element info: {Using=xpath, value=//input[@id=&apos;RepresentativeDesignation&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at com.kt.enrollez.Broker_AddEmployer_TestCase.Client_Representative(Broker_AddEmployer_TestCase.java:148)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Applications">
+                  </a> <!-- Verify_Applications -->
+                  <span class="method-name">Verify_Applications</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id=&apos;application3&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.9.1&apos;, revision: &apos;63f7b50&apos;, time: &apos;2018-02-07T22:25:02.294Z&apos;
+System info: host: &apos;SUBHASHA-PC&apos;, ip: &apos;192.168.1.203&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_212&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10436, moz:profile: C:\Users\Subhash\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f1485bd-511b-4248-9d6a-98412d1170ce
+*** Element info: {Using=xpath, value=//input[@id=&apos;application3&apos;]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at com.kt.enrollez.Broker_AddEmployer_TestCase.Verify_Applications(Broker_AddEmployer_TestCase.java:129)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.kt.enrollez.Broker_Dashbaord_TestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Activity_Tab">
+                  </a> <!-- Activity_Tab -->
+                  <span class="method-name">Activity_Tab</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Search] but found []
+	at com.kt.enrollez.Broker_Dashbaord_TestCase.Activity_Tab(Broker_Dashbaord_TestCase.java:123)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CountSummary_Tab">
+                  </a> <!-- CountSummary_Tab -->
+                  <span class="method-name">CountSummary_Tab</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Count Summary] but found []
+	at com.kt.enrollez.Broker_Dashbaord_TestCase.CountSummary_Tab(Broker_Dashbaord_TestCase.java:116)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kt.enrollez.Broker_Login_TestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Application_Title">
+                  </a> <!-- Verify_Application_Title -->
+                  <span class="method-name">Verify_Application_Title</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Application_Url">
+                  </a> <!-- Verify_Application_Url -->
+                  <span class="method-name">Verify_Application_Url</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Login(KTB03, ValidData, TestBroker, 12345678, Welcome TestBroker!)">
+                  </a> <!-- Verify_Login(KTB03, ValidData, TestBroker, 12345678, Welcome TestBroker!) -->
+                  <span class="method-name">Verify_Login</span>
+                  <span class="parameters">(KTB03, ValidData, TestBroker, 12345678, Welcome TestBroker!)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Login(KTB01, DatawithBlank, , , Login was unsuccessful. Please check your login information and retry.)">
+                  </a> <!-- Verify_Login(KTB01, DatawithBlank, , , Login was unsuccessful. Please check your login information and retry.) -->
+                  <span class="method-name">Verify_Login</span>
+                  <span class="parameters">(KTB01, DatawithBlank, , , Login was unsuccessful. Please check your login information and retry.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Login(KTB02, invalidData, abc, 1234, Login was unsuccessful. Please check your login information and retry...)">
+                  </a> <!-- Verify_Login(KTB02, invalidData, abc, 1234, Login was unsuccessful. Please check your login information and retry...) -->
+                  <span class="method-name">Verify_Login</span>
+                  <span class="parameters">(KTB02, invalidData, abc, 1234, Login was unsuccessful. Please check your login information and retry.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Logo">
+                  </a> <!-- Verify_Logo -->
+                  <span class="method-name">Verify_Logo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Placeholder_ofAllfields">
+                  </a> <!-- Verify_Placeholder_ofAllfields -->
+                  <span class="method-name">Verify_Placeholder_ofAllfields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kt.enrollez.Broker_AddEmployer_TestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Login_WithValidInputs">
+                  </a> <!-- Verify_Login_WithValidInputs -->
+                  <span class="method-name">Verify_Login_WithValidInputs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kt.enrollez.Broker_Representaive_TestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_BrokerRep(KTBTC01, BlankInfo,  ,  ,  ,  ,  , &gt;&gt; Select, &gt;&gt; Select,  ,  ,  , required.)">
+                  </a> <!-- Add_BrokerRep(KTBTC01, BlankInfo,  ,  ,  ,  ,  , >> Select, >> Select,  ,  ,  , required.) -->
+                  <span class="method-name">Add_BrokerRep</span>
+                  <span class="parameters">(KTBTC01, BlankInfo,  ,  ,  ,  ,  , >> Select, >> Select,  ,  ,  , required.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_BrokerRep(KTBTC03, ValidInfo, Sunil, Kumar, Street-01, Street-02, pune, India, Goa, 652152, 9999999999, test4@...)">
+                  </a> <!-- Add_BrokerRep(KTBTC03, ValidInfo, Sunil, Kumar, Street-01, Street-02, pune, India, Goa, 652152, 9999999999, test4@...) -->
+                  <span class="method-name">Add_BrokerRep</span>
+                  <span class="parameters">(KTBTC03, ValidInfo, Sunil, Kumar, Street-01, Street-02, pune, India, Goa, 652152, 9999999999, test4@gmail.com, Broker Representative information has been added successfully. )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Add_BrokerRep(KTBTC02, InvalidInfo, Sunil, Kumar, Street-01, Street-02, pune, India, Goa, 652152, 9999, test4gmail...)">
+                  </a> <!-- Add_BrokerRep(KTBTC02, InvalidInfo, Sunil, Kumar, Street-01, Street-02, pune, India, Goa, 652152, 9999, test4gmail...) -->
+                  <span class="method-name">Add_BrokerRep</span>
+                  <span class="parameters">(KTBTC02, InvalidInfo, Sunil, Kumar, Street-01, Street-02, pune, India, Goa, 652152, 9999, test4gmail.com, Please enter a valid email address.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Delete_Rep">
+                  </a> <!-- Delete_Rep -->
+                  <span class="method-name">Delete_Rep</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Update_BrokerRep(TC03, ValidInfo, Sunil, Street-01, Street-02, pune, India, Goa, 652152, 9999999999, test4@gmail.com,...)">
+                  </a> <!-- Update_BrokerRep(TC03, ValidInfo, Sunil, Street-01, Street-02, pune, India, Goa, 652152, 9999999999, test4@gmail.com,...) -->
+                  <span class="method-name">Update_BrokerRep</span>
+                  <span class="parameters">(TC03, ValidInfo, Sunil, Street-01, Street-02, pune, India, Goa, 652152, 9999999999, test4@gmail.com, Broker Representative information has been updated successfully. )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Update_BrokerRep(TC01, BlankdData,  ,  ,  ,  , &gt;&gt; Select, &gt;&gt; Select,  ,  ,  , required.)">
+                  </a> <!-- Update_BrokerRep(TC01, BlankdData,  ,  ,  ,  , >> Select, >> Select,  ,  ,  , required.) -->
+                  <span class="method-name">Update_BrokerRep</span>
+                  <span class="parameters">(TC01, BlankdData,  ,  ,  ,  , >> Select, >> Select,  ,  ,  , required.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Update_BrokerRep(TC02, InvalidInfo, Sunil, Street-01, Street-02, pune, India, Goa, 652152, 9999, test4gmail.com, Plea...)">
+                  </a> <!-- Update_BrokerRep(TC02, InvalidInfo, Sunil, Street-01, Street-02, pune, India, Goa, 652152, 9999, test4gmail.com, Plea...) -->
+                  <span class="method-name">Update_BrokerRep</span>
+                  <span class="parameters">(TC02, InvalidInfo, Sunil, Street-01, Street-02, pune, India, Goa, 652152, 9999, test4gmail.com, Please enter a valid email address.)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyClick">
+                  </a> <!-- VerifyClick -->
+                  <span class="method-name">VerifyClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Cancel_Broker(TC01, VerifyCancelFunctionality, Sunil, Kumar, Street-01, Street-02, pune, India, Goa, 652152, 99999...)">
+                  </a> <!-- Verify_Cancel_Broker(TC01, VerifyCancelFunctionality, Sunil, Kumar, Street-01, Street-02, pune, India, Goa, 652152, 99999...) -->
+                  <span class="method-name">Verify_Cancel_Broker</span>
+                  <span class="parameters">(TC01, VerifyCancelFunctionality, Sunil, Kumar, Street-01, Street-02, pune, India, Goa, 652152, 9999999999, test4@gmail.com, Broker Representative List)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Login_WithValidInputs">
+                  </a> <!-- Verify_Login_WithValidInputs -->
+                  <span class="method-name">Verify_Login_WithValidInputs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="printTable">
+                  </a> <!-- printTable -->
+                  <span class="method-name">printTable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.kt.enrollez.Broker_Dashbaord_TestCase</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Employer_Tab">
+                  </a> <!-- Employer_Tab -->
+                  <span class="method-name">Employer_Tab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_AddEmployer_link">
+                  </a> <!-- Verify_AddEmployer_link -->
+                  <span class="method-name">Verify_AddEmployer_link</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_BrokerRep_link">
+                  </a> <!-- Verify_BrokerRep_link -->
+                  <span class="method-name">Verify_BrokerRep_link</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Credentials_link">
+                  </a> <!-- Verify_Credentials_link -->
+                  <span class="method-name">Verify_Credentials_link</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Details_link">
+                  </a> <!-- Verify_Details_link -->
+                  <span class="method-name">Verify_Details_link</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_EmployerList_link">
+                  </a> <!-- Verify_EmployerList_link -->
+                  <span class="method-name">Verify_EmployerList_link</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Login_WithValidInputs">
+                  </a> <!-- Verify_Login_WithValidInputs -->
+                  <span class="method-name">Verify_Login_WithValidInputs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_SearchEmployee_link">
+                  </a> <!-- Verify_SearchEmployee_link -->
+                  <span class="method-name">Verify_SearchEmployee_link</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_SearchEmployer_link">
+                  </a> <!-- Verify_SearchEmployer_link -->
+                  <span class="method-name">Verify_SearchEmployer_link</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_UserList_link">
+                  </a> <!-- Verify_UserList_link -->
+                  <span class="method-name">Verify_UserList_link</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\package\EnrollEZ\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.kt.enrollez.Broker_Representaive_TestCase&quot;/&gt;
+      &lt;class name=&quot;com.kt.enrollez.Broker_Login_TestCase&quot;/&gt;
+      &lt;class name=&quot;com.kt.enrollez.Broker_Dashbaord_TestCase&quot;/&gt;
+      &lt;class name=&quot;com.kt.enrollez.Broker_AddEmployer_TestCase&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">Regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">AddEmployer_CompanyInformation</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Add_BrokerRep</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Client_Representative</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Update_BrokerRep</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Verify_Applications</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Verify_Cancel_Broker</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Verify_Login_WithValidInputs</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">Activity_Tab</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">CountSummary_Tab</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Employer_Tab</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Verify_AddEmployer_link</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Verify_Application_Title</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Verify_Application_Url</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Verify_BrokerRep_link</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Verify_Credentials_link</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Verify_Details_link</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Verify_EmployerList_link</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Verify_Login</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Verify_Logo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Verify_Placeholder_ofAllfields</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Verify_SearchEmployee_link</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Verify_SearchEmployer_link</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Verify_UserList_link</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(35);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'AddEmployer_CompanyInformation')
+data.setCell(0, 2, 'com.kt.enrollez.Broker_AddEmployer_TestCase')
+data.setCell(0, 3, 41406);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Verify_Applications')
+data.setCell(1, 2, 'com.kt.enrollez.Broker_AddEmployer_TestCase')
+data.setCell(1, 3, 31844);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Client_Representative')
+data.setCell(2, 2, 'com.kt.enrollez.Broker_AddEmployer_TestCase')
+data.setCell(2, 3, 31023);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Client_Representative')
+data.setCell(3, 2, 'com.kt.enrollez.Broker_AddEmployer_TestCase')
+data.setCell(3, 3, 31023);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Verify_Login_WithValidInputs')
+data.setCell(4, 2, 'com.kt.enrollez.Broker_Representaive_TestCase')
+data.setCell(4, 3, 24703);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Verify_Cancel_Broker')
+data.setCell(5, 2, 'com.kt.enrollez.Broker_Representaive_TestCase')
+data.setCell(5, 3, 17614);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Add_BrokerRep')
+data.setCell(6, 2, 'com.kt.enrollez.Broker_Representaive_TestCase')
+data.setCell(6, 3, 16764);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Verify_Login_WithValidInputs')
+data.setCell(7, 2, 'com.kt.enrollez.Broker_AddEmployer_TestCase')
+data.setCell(7, 3, 15586);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Add_BrokerRep')
+data.setCell(8, 2, 'com.kt.enrollez.Broker_Representaive_TestCase')
+data.setCell(8, 3, 14103);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Add_BrokerRep')
+data.setCell(9, 2, 'com.kt.enrollez.Broker_Representaive_TestCase')
+data.setCell(9, 3, 13468);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Update_BrokerRep')
+data.setCell(10, 2, 'com.kt.enrollez.Broker_Representaive_TestCase')
+data.setCell(10, 3, 12776);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Update_BrokerRep')
+data.setCell(11, 2, 'com.kt.enrollez.Broker_Representaive_TestCase')
+data.setCell(11, 3, 11975);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Verify_Login_WithValidInputs')
+data.setCell(12, 2, 'com.kt.enrollez.Broker_Dashbaord_TestCase')
+data.setCell(12, 3, 11942);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Verify_Login')
+data.setCell(13, 2, 'com.kt.enrollez.Broker_Login_TestCase')
+data.setCell(13, 3, 11414);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Update_BrokerRep')
+data.setCell(14, 2, 'com.kt.enrollez.Broker_Representaive_TestCase')
+data.setCell(14, 3, 10628);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Verify_BrokerRep_link')
+data.setCell(15, 2, 'com.kt.enrollez.Broker_Dashbaord_TestCase')
+data.setCell(15, 3, 5698);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Verify_Login')
+data.setCell(16, 2, 'com.kt.enrollez.Broker_Login_TestCase')
+data.setCell(16, 3, 4562);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'VerifyClick')
+data.setCell(17, 2, 'com.kt.enrollez.Broker_Representaive_TestCase')
+data.setCell(17, 3, 4552);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Verify_AddEmployer_link')
+data.setCell(18, 2, 'com.kt.enrollez.Broker_Dashbaord_TestCase')
+data.setCell(18, 3, 4042);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Verify_Details_link')
+data.setCell(19, 2, 'com.kt.enrollez.Broker_Dashbaord_TestCase')
+data.setCell(19, 3, 3847);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Verify_Login')
+data.setCell(20, 2, 'com.kt.enrollez.Broker_Login_TestCase')
+data.setCell(20, 3, 3514);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Verify_UserList_link')
+data.setCell(21, 2, 'com.kt.enrollez.Broker_Dashbaord_TestCase')
+data.setCell(21, 3, 3399);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Verify_Credentials_link')
+data.setCell(22, 2, 'com.kt.enrollez.Broker_Dashbaord_TestCase')
+data.setCell(22, 3, 3223);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Verify_SearchEmployer_link')
+data.setCell(23, 2, 'com.kt.enrollez.Broker_Dashbaord_TestCase')
+data.setCell(23, 3, 2228);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'Verify_EmployerList_link')
+data.setCell(24, 2, 'com.kt.enrollez.Broker_Dashbaord_TestCase')
+data.setCell(24, 3, 2224);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Verify_SearchEmployee_link')
+data.setCell(25, 2, 'com.kt.enrollez.Broker_Dashbaord_TestCase')
+data.setCell(25, 3, 2152);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'printTable')
+data.setCell(26, 2, 'com.kt.enrollez.Broker_Representaive_TestCase')
+data.setCell(26, 3, 1092);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'Delete_Rep')
+data.setCell(27, 2, 'com.kt.enrollez.Broker_Representaive_TestCase')
+data.setCell(27, 3, 730);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'Employer_Tab')
+data.setCell(28, 2, 'com.kt.enrollez.Broker_Dashbaord_TestCase')
+data.setCell(28, 3, 421);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'Activity_Tab')
+data.setCell(29, 2, 'com.kt.enrollez.Broker_Dashbaord_TestCase')
+data.setCell(29, 3, 266);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'CountSummary_Tab')
+data.setCell(30, 2, 'com.kt.enrollez.Broker_Dashbaord_TestCase')
+data.setCell(30, 3, 244);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'Verify_Placeholder_ofAllfields')
+data.setCell(31, 2, 'com.kt.enrollez.Broker_Login_TestCase')
+data.setCell(31, 3, 86);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'Verify_Logo')
+data.setCell(32, 2, 'com.kt.enrollez.Broker_Login_TestCase')
+data.setCell(32, 3, 84);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'Verify_Application_Title')
+data.setCell(33, 2, 'com.kt.enrollez.Broker_Login_TestCase')
+data.setCell(33, 3, 20);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'Verify_Application_Url')
+data.setCell(34, 2, 'com.kt.enrollez.Broker_Login_TestCase')
+data.setCell(34, 3, 12);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_AddEmployer_TestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setup_Browser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Dashbaord_TestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setup_Browser</span>
+                <span class="method-start">37448 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Login_TestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setup_Browser</span>
+                <span class="method-start">57545 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Representaive_TestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setup_Browser</span>
+                <span class="method-start">88155 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">Verify_Login_WithValidInputs</span>
+                <span class="method-start">113529 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Login_TestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Verify_Application_Title</span>
+                <span class="method-start">138243 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Dashbaord_TestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Verify_Login_WithValidInputs</span>
+                <span class="method-start">138266 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_AddEmployer_TestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Verify_Login_WithValidInputs</span>
+                <span class="method-start">150211 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Representaive_TestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Verify_Cancel_Broker(TC01, VerifyCancelFunctionality, Sunil, Kumar, Street-01, Street-02, pune, India, Goa, 652152, 99999...)</span>
+                <span class="method-start">165847 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Login_TestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Verify_Logo</span>
+                <span class="method-start">183468 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Dashbaord_TestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Verify_Details_link</span>
+                <span class="method-start">183554 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_AddEmployer_TestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">AddEmployer_CompanyInformation(TC03, Valid, KT19, 5865847584, Street -01, Street -01, pune , India, Goa, 60012, TestDescripton, 12/...)</span>
+                <span class="method-start">187403 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Representaive_TestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Add_BrokerRep(KTBTC01, BlankInfo,  ,  ,  ,  ,  , >> Select, >> Select,  ,  ,  , required.)</span>
+                <span class="method-start">228875 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_BrokerRep(KTBTC02, InvalidInfo, Sunil, Kumar, Street-01, Street-02, pune, India, Goa, 652152, 9999, test4gmail...)</span>
+                <span class="method-start">242347 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Add_BrokerRep(KTBTC03, ValidInfo, Sunil, Kumar, Street-01, Street-02, pune, India, Goa, 652152, 9999999999, test4@...)</span>
+                <span class="method-start">256453 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Login_TestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Verify_Application_Url</span>
+                <span class="method-start">273219 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Dashbaord_TestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Verify_Credentials_link</span>
+                <span class="method-start">273234 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_AddEmployer_TestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verify_Applications</span>
+                <span class="method-start">276458 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Representaive_TestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">VerifyClick</span>
+                <span class="method-start">308309 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Login_TestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Verify_Placeholder_ofAllfields</span>
+                <span class="method-start">312863 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Dashbaord_TestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Verify_BrokerRep_link</span>
+                <span class="method-start">312952 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_AddEmployer_TestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Client_Representative(KTBTC01, BlankInfo,  ,  ,  ,  ,  ,  , >> Select,  ,  ,  ,  ,  , required.)</span>
+                <span class="method-start">318652 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Client_Representative(KTBTC01, BlankInfo, HR Manager , John , Doe , Street-01 , Street-02 ,  , >> Select,  ,  ,  ,  ,  , r...)</span>
+                <span class="method-start">349679 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Representaive_TestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Update_BrokerRep(TC01, BlankdData,  ,  ,  ,  , >> Select, >> Select,  ,  ,  , required.)</span>
+                <span class="method-start">380709 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Update_BrokerRep(TC02, InvalidInfo, Sunil, Street-01, Street-02, pune, India, Goa, 652152, 9999, test4gmail.com, Plea...)</span>
+                <span class="method-start">391339 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Update_BrokerRep(TC03, ValidInfo, Sunil, Street-01, Street-02, pune, India, Goa, 652152, 9999999999, test4@gmail.com,...)</span>
+                <span class="method-start">403317 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Login_TestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Verify_Login(KTB01, DatawithBlank, , , Login was unsuccessful. Please check your login information and retry.)</span>
+                <span class="method-start">416099 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Login(KTB02, invalidData, abc, 1234, Login was unsuccessful. Please check your login information and retry...)</span>
+                <span class="method-start">420663 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_Login(KTB03, ValidData, TestBroker, 12345678, Welcome TestBroker!)</span>
+                <span class="method-start">424179 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Dashbaord_TestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Verify_AddEmployer_link</span>
+                <span class="method-start">435595 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Representaive_TestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">printTable</span>
+                <span class="method-start">439638 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Dashbaord_TestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Verify_EmployerList_link</span>
+                <span class="method-start">440731 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Representaive_TestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Delete_Rep</span>
+                <span class="method-start">442956 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Dashbaord_TestCase</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Verify_UserList_link</span>
+                <span class="method-start">443688 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_SearchEmployer_link</span>
+                <span class="method-start">447090 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Verify_SearchEmployee_link</span>
+                <span class="method-start">449319 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Employer_Tab</span>
+                <span class="method-start">451471 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CountSummary_Tab</span>
+                <span class="method-start">451894 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Activity_Tab</span>
+                <span class="method-start">452142 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_AddEmployer_TestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">close_Browse</span>
+                <span class="method-start">455642 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Dashbaord_TestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">close_Browse</span>
+                <span class="method-start">466748 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Login_TestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">close_Browse</span>
+                <span class="method-start">470131 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.kt.enrollez.Broker_Representaive_TestCase</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">close_Browse</span>
+                <span class="method-start">472411 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

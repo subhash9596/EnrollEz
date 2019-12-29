@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="6" ignored="0" total="35" passed="29">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="338974" started-at="2019-12-26T11:53:27Z" finished-at="2019-12-26T11:59:06Z">
+    <groups>
+      <group name="Regression">
+        <method signature="Broker_AddEmployer_TestCase.AddEmployer_CompanyInformation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.kt.enrollez.Broker_AddEmployer_TestCase@548e7350]" name="AddEmployer_CompanyInformation" class="com.kt.enrollez.Broker_AddEmployer_TestCase"/>
+        <method signature="Broker_AddEmployer_TestCase.Client_Representative(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.kt.enrollez.Broker_AddEmployer_TestCase@548e7350]" name="Client_Representative" class="com.kt.enrollez.Broker_AddEmployer_TestCase"/>
+        <method signature="Broker_AddEmployer_TestCase.Verify_Applications()[pri:3, instance:com.kt.enrollez.Broker_AddEmployer_TestCase@548e7350]" name="Verify_Applications" class="com.kt.enrollez.Broker_AddEmployer_TestCase"/>
+        <method signature="Broker_AddEmployer_TestCase.Verify_Login_WithValidInputs()[pri:1, instance:com.kt.enrollez.Broker_AddEmployer_TestCase@548e7350]" name="Verify_Login_WithValidInputs" class="com.kt.enrollez.Broker_AddEmployer_TestCase"/>
+        <method signature="Broker_Dashbaord_TestCase.Verify_Login_WithValidInputs()[pri:1, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="Verify_Login_WithValidInputs" class="com.kt.enrollez.Broker_Dashbaord_TestCase"/>
+        <method signature="Broker_Representaive_TestCase.Add_BrokerRep(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.kt.enrollez.Broker_Representaive_TestCase@343f4d3d]" name="Add_BrokerRep" class="com.kt.enrollez.Broker_Representaive_TestCase"/>
+        <method signature="Broker_Representaive_TestCase.Update_BrokerRep(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.kt.enrollez.Broker_Representaive_TestCase@343f4d3d]" name="Update_BrokerRep" class="com.kt.enrollez.Broker_Representaive_TestCase"/>
+        <method signature="Broker_Representaive_TestCase.Verify_Cancel_Broker(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.kt.enrollez.Broker_Representaive_TestCase@343f4d3d]" name="Verify_Cancel_Broker" class="com.kt.enrollez.Broker_Representaive_TestCase"/>
+        <method signature="Broker_Representaive_TestCase.Verify_Login_WithValidInputs()[pri:1, instance:com.kt.enrollez.Broker_Representaive_TestCase@343f4d3d]" name="Verify_Login_WithValidInputs" class="com.kt.enrollez.Broker_Representaive_TestCase"/>
+      </group> <!-- Regression -->
+      <group name="smoke">
+        <method signature="Broker_Dashbaord_TestCase.Activity_Tab()[pri:12, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="Activity_Tab" class="com.kt.enrollez.Broker_Dashbaord_TestCase"/>
+        <method signature="Broker_Dashbaord_TestCase.CountSummary_Tab()[pri:11, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="CountSummary_Tab" class="com.kt.enrollez.Broker_Dashbaord_TestCase"/>
+        <method signature="Broker_Dashbaord_TestCase.Employer_Tab()[pri:10, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="Employer_Tab" class="com.kt.enrollez.Broker_Dashbaord_TestCase"/>
+        <method signature="Broker_Dashbaord_TestCase.Verify_AddEmployer_link()[pri:5, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="Verify_AddEmployer_link" class="com.kt.enrollez.Broker_Dashbaord_TestCase"/>
+        <method signature="Broker_Dashbaord_TestCase.Verify_BrokerRep_link()[pri:4, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="Verify_BrokerRep_link" class="com.kt.enrollez.Broker_Dashbaord_TestCase"/>
+        <method signature="Broker_Dashbaord_TestCase.Verify_Credentials_link()[pri:3, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="Verify_Credentials_link" class="com.kt.enrollez.Broker_Dashbaord_TestCase"/>
+        <method signature="Broker_Dashbaord_TestCase.Verify_Details_link()[pri:2, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="Verify_Details_link" class="com.kt.enrollez.Broker_Dashbaord_TestCase"/>
+        <method signature="Broker_Dashbaord_TestCase.Verify_EmployerList_link()[pri:6, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="Verify_EmployerList_link" class="com.kt.enrollez.Broker_Dashbaord_TestCase"/>
+        <method signature="Broker_Dashbaord_TestCase.Verify_SearchEmployee_link()[pri:9, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="Verify_SearchEmployee_link" class="com.kt.enrollez.Broker_Dashbaord_TestCase"/>
+        <method signature="Broker_Dashbaord_TestCase.Verify_SearchEmployer_link()[pri:8, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="Verify_SearchEmployer_link" class="com.kt.enrollez.Broker_Dashbaord_TestCase"/>
+        <method signature="Broker_Dashbaord_TestCase.Verify_UserList_link()[pri:7, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="Verify_UserList_link" class="com.kt.enrollez.Broker_Dashbaord_TestCase"/>
+        <method signature="Broker_Login_TestCase.Verify_Application_Title()[pri:1, instance:com.kt.enrollez.Broker_Login_TestCase@53b32d7]" name="Verify_Application_Title" class="com.kt.enrollez.Broker_Login_TestCase"/>
+        <method signature="Broker_Login_TestCase.Verify_Application_Url()[pri:3, instance:com.kt.enrollez.Broker_Login_TestCase@53b32d7]" name="Verify_Application_Url" class="com.kt.enrollez.Broker_Login_TestCase"/>
+        <method signature="Broker_Login_TestCase.Verify_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.kt.enrollez.Broker_Login_TestCase@53b32d7]" name="Verify_Login" class="com.kt.enrollez.Broker_Login_TestCase"/>
+        <method signature="Broker_Login_TestCase.Verify_Logo()[pri:2, instance:com.kt.enrollez.Broker_Login_TestCase@53b32d7]" name="Verify_Logo" class="com.kt.enrollez.Broker_Login_TestCase"/>
+        <method signature="Broker_Login_TestCase.Verify_Placeholder_ofAllfields()[pri:4, instance:com.kt.enrollez.Broker_Login_TestCase@53b32d7]" name="Verify_Placeholder_ofAllfields" class="com.kt.enrollez.Broker_Login_TestCase"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="338974" started-at="2019-12-26T11:53:27Z" finished-at="2019-12-26T11:59:06Z">
+      <class name="com.kt.enrollez.Broker_AddEmployer_TestCase">
+        <test-method status="PASS" signature="setup_Browser()[pri:0, instance:com.kt.enrollez.Broker_AddEmployer_TestCase@548e7350]" name="setup_Browser" is-config="true" duration-ms="37448" started-at="2019-12-26T17:21:34Z" finished-at="2019-12-26T17:22:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_Browser -->
+        <test-method status="PASS" signature="setup_Browser()[pri:0, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="setup_Browser" is-config="true" duration-ms="20097" started-at="2019-12-26T17:22:11Z" finished-at="2019-12-26T17:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_Browser -->
+        <test-method status="PASS" signature="setup_Browser()[pri:0, instance:com.kt.enrollez.Broker_Login_TestCase@53b32d7]" name="setup_Browser" is-config="true" duration-ms="30610" started-at="2019-12-26T17:22:31Z" finished-at="2019-12-26T17:23:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_Browser -->
+        <test-method status="PASS" signature="setup_Browser()[pri:0, instance:com.kt.enrollez.Broker_Representaive_TestCase@343f4d3d]" name="setup_Browser" is-config="true" duration-ms="25282" started-at="2019-12-26T17:23:02Z" finished-at="2019-12-26T17:23:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_Browser -->
+        <test-method status="PASS" signature="Verify_Login_WithValidInputs()[pri:1, instance:com.kt.enrollez.Broker_AddEmployer_TestCase@548e7350]" name="Verify_Login_WithValidInputs" duration-ms="15586" started-at="2019-12-26T17:24:04Z" finished-at="2019-12-26T17:24:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_WithValidInputs -->
+        <test-method status="FAIL" signature="AddEmployer_CompanyInformation(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.kt.enrollez.Broker_AddEmployer_TestCase@548e7350]" name="AddEmployer_CompanyInformation" duration-ms="41406" started-at="2019-12-26T17:24:41Z" data-provider="AddEmployer" finished-at="2019-12-26T17:25:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Valid]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[KT19]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5865847584]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Street -01]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Street -01]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pune ]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[60012]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[TestDescripton]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[12/01/2019]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[12/31/2019]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[You have successfully added employer basic information. Please select applications for authorization. ]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //div[@class='success']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'SUBHASHA-PC', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10436, moz:profile: C:\Users\Subhash\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f1485bd-511b-4248-9d6a-98412d1170ce
+*** Element info: {Using=xpath, value=//div[@class='success']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@class='success']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'SUBHASHA-PC', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10436, moz:profile: C:\Users\Subhash\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f1485bd-511b-4248-9d6a-98412d1170ce
+*** Element info: {Using=xpath, value=//div[@class='success']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at com.kt.enrollez.Broker_AddEmployer_TestCase.AddEmployer_CompanyInformation(Broker_AddEmployer_TestCase.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmployer_CompanyInformation -->
+        <test-method status="FAIL" signature="Verify_Applications()[pri:3, instance:com.kt.enrollez.Broker_AddEmployer_TestCase@548e7350]" name="Verify_Applications" duration-ms="31844" started-at="2019-12-26T17:26:10Z" finished-at="2019-12-26T17:26:42Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //input[@id='application3']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'SUBHASHA-PC', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10436, moz:profile: C:\Users\Subhash\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f1485bd-511b-4248-9d6a-98412d1170ce
+*** Element info: {Using=xpath, value=//input[@id='application3']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='application3']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'SUBHASHA-PC', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10436, moz:profile: C:\Users\Subhash\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f1485bd-511b-4248-9d6a-98412d1170ce
+*** Element info: {Using=xpath, value=//input[@id='application3']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at com.kt.enrollez.Broker_AddEmployer_TestCase.Verify_Applications(Broker_AddEmployer_TestCase.java:129)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Applications -->
+        <test-method status="FAIL" signature="Client_Representative(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.kt.enrollez.Broker_AddEmployer_TestCase@548e7350]" name="Client_Representative" duration-ms="31023" started-at="2019-12-26T17:26:52Z" data-provider="CR" finished-at="2019-12-26T17:27:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KTBTC01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BlankInfo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[>> Select]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[required.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //input[@id='RepresentativeDesignation']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'SUBHASHA-PC', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10436, moz:profile: C:\Users\Subhash\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f1485bd-511b-4248-9d6a-98412d1170ce
+*** Element info: {Using=xpath, value=//input[@id='RepresentativeDesignation']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='RepresentativeDesignation']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'SUBHASHA-PC', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10436, moz:profile: C:\Users\Subhash\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f1485bd-511b-4248-9d6a-98412d1170ce
+*** Element info: {Using=xpath, value=//input[@id='RepresentativeDesignation']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at com.kt.enrollez.Broker_AddEmployer_TestCase.Client_Representative(Broker_AddEmployer_TestCase.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Client_Representative -->
+        <test-method status="FAIL" signature="Client_Representative(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.kt.enrollez.Broker_AddEmployer_TestCase@548e7350]" name="Client_Representative" duration-ms="31023" started-at="2019-12-26T17:27:23Z" data-provider="CR" finished-at="2019-12-26T17:27:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KTBTC01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BlankInfo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[HR Manager ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[John ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Doe ]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Street-01 ]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Street-02 ]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[>> Select]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[required.]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //input[@id='RepresentativeDesignation']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'SUBHASHA-PC', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10436, moz:profile: C:\Users\Subhash\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f1485bd-511b-4248-9d6a-98412d1170ce
+*** Element info: {Using=xpath, value=//input[@id='RepresentativeDesignation']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id='RepresentativeDesignation']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
+System info: host: 'SUBHASHA-PC', ip: '192.168.1.203', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10436, moz:profile: C:\Users\Subhash\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2f1485bd-511b-4248-9d6a-98412d1170ce
+*** Element info: {Using=xpath, value=//input[@id='RepresentativeDesignation']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at com.kt.enrollez.Broker_AddEmployer_TestCase.Client_Representative(Broker_AddEmployer_TestCase.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Client_Representative -->
+        <test-method status="PASS" signature="close_Browse()[pri:0, instance:com.kt.enrollez.Broker_AddEmployer_TestCase@548e7350]" name="close_Browse" is-config="true" duration-ms="11106" started-at="2019-12-26T17:29:09Z" finished-at="2019-12-26T17:29:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browse -->
+        <test-method status="PASS" signature="close_Browse()[pri:0, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="close_Browse" is-config="true" duration-ms="3383" started-at="2019-12-26T17:29:21Z" finished-at="2019-12-26T17:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browse -->
+        <test-method status="PASS" signature="close_Browse()[pri:0, instance:com.kt.enrollez.Broker_Login_TestCase@53b32d7]" name="close_Browse" is-config="true" duration-ms="2280" started-at="2019-12-26T17:29:24Z" finished-at="2019-12-26T17:29:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browse -->
+        <test-method status="PASS" signature="close_Browse()[pri:0, instance:com.kt.enrollez.Broker_Representaive_TestCase@343f4d3d]" name="close_Browse" is-config="true" duration-ms="2374" started-at="2019-12-26T17:29:26Z" finished-at="2019-12-26T17:29:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browse -->
+      </class> <!-- com.kt.enrollez.Broker_AddEmployer_TestCase -->
+      <class name="com.kt.enrollez.Broker_Representaive_TestCase">
+        <test-method status="PASS" signature="Verify_Login_WithValidInputs()[pri:1, instance:com.kt.enrollez.Broker_Representaive_TestCase@343f4d3d]" name="Verify_Login_WithValidInputs" duration-ms="24703" started-at="2019-12-26T17:23:27Z" finished-at="2019-12-26T17:23:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_WithValidInputs -->
+        <test-method status="PASS" signature="Verify_Cancel_Broker(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.kt.enrollez.Broker_Representaive_TestCase@343f4d3d]" name="Verify_Cancel_Broker" duration-ms="17614" started-at="2019-12-26T17:24:20Z" data-provider="Cancel" finished-at="2019-12-26T17:24:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[VerifyCancelFunctionality]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sunil]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Street-01]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Street-02]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[652152]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[test4@gmail.com]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Broker Representative List]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Cancel_Broker -->
+        <test-method status="PASS" signature="Add_BrokerRep(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.kt.enrollez.Broker_Representaive_TestCase@343f4d3d]" name="Add_BrokerRep" duration-ms="13468" started-at="2019-12-26T17:25:23Z" data-provider="AddRep" finished-at="2019-12-26T17:25:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KTBTC01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BlankInfo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[>> Select]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[>> Select]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_BrokerRep -->
+        <test-method status="PASS" signature="Add_BrokerRep(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.kt.enrollez.Broker_Representaive_TestCase@343f4d3d]" name="Add_BrokerRep" duration-ms="14103" started-at="2019-12-26T17:25:36Z" data-provider="AddRep" finished-at="2019-12-26T17:25:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KTBTC02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[InvalidInfo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sunil]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Street-01]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Street-02]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[652152]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[9999]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[test4gmail.com]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Please enter a valid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_BrokerRep -->
+        <test-method status="PASS" signature="Add_BrokerRep(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.kt.enrollez.Broker_Representaive_TestCase@343f4d3d]" name="Add_BrokerRep" duration-ms="16764" started-at="2019-12-26T17:25:50Z" data-provider="AddRep" finished-at="2019-12-26T17:26:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KTBTC03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ValidInfo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sunil]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Street-01]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Street-02]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[652152]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[test4@gmail.com]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Broker Representative information has been added successfully. ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_BrokerRep -->
+        <test-method status="PASS" signature="VerifyClick()[pri:4, instance:com.kt.enrollez.Broker_Representaive_TestCase@343f4d3d]" name="VerifyClick" duration-ms="4552" started-at="2019-12-26T17:26:42Z" finished-at="2019-12-26T17:26:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyClick -->
+        <test-method status="PASS" signature="Update_BrokerRep(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.kt.enrollez.Broker_Representaive_TestCase@343f4d3d]" name="Update_BrokerRep" duration-ms="10628" started-at="2019-12-26T17:27:54Z" data-provider="UpdateRep" finished-at="2019-12-26T17:28:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BlankdData]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[>> Select]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[>> Select]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[required.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Update_BrokerRep -->
+        <test-method status="PASS" signature="Update_BrokerRep(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.kt.enrollez.Broker_Representaive_TestCase@343f4d3d]" name="Update_BrokerRep" duration-ms="11975" started-at="2019-12-26T17:28:05Z" data-provider="UpdateRep" finished-at="2019-12-26T17:28:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[InvalidInfo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sunil]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Street-01]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Street-02]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[652152]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[9999]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[test4gmail.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Please enter a valid email address.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Update_BrokerRep -->
+        <test-method status="PASS" signature="Update_BrokerRep(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.kt.enrollez.Broker_Representaive_TestCase@343f4d3d]" name="Update_BrokerRep" duration-ms="12776" started-at="2019-12-26T17:28:17Z" data-provider="UpdateRep" finished-at="2019-12-26T17:28:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TC03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ValidInfo]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sunil]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Street-01]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Street-02]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[pune]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Goa]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[652152]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[test4@gmail.com]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[Broker Representative information has been updated successfully. ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Update_BrokerRep -->
+        <test-method status="PASS" signature="printTable()[pri:6, instance:com.kt.enrollez.Broker_Representaive_TestCase@343f4d3d]" name="printTable" duration-ms="1092" started-at="2019-12-26T17:28:53Z" finished-at="2019-12-26T17:28:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printTable -->
+        <test-method status="PASS" signature="Delete_Rep()[pri:7, instance:com.kt.enrollez.Broker_Representaive_TestCase@343f4d3d]" name="Delete_Rep" duration-ms="730" started-at="2019-12-26T17:28:57Z" finished-at="2019-12-26T17:28:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_Rep -->
+      </class> <!-- com.kt.enrollez.Broker_Representaive_TestCase -->
+      <class name="com.kt.enrollez.Broker_Dashbaord_TestCase">
+        <test-method status="PASS" signature="Verify_Login_WithValidInputs()[pri:1, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="Verify_Login_WithValidInputs" duration-ms="11942" started-at="2019-12-26T17:23:52Z" finished-at="2019-12-26T17:24:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login_WithValidInputs -->
+        <test-method status="PASS" signature="Verify_Details_link()[pri:2, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="Verify_Details_link" duration-ms="3847" started-at="2019-12-26T17:24:37Z" finished-at="2019-12-26T17:24:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Details_link -->
+        <test-method status="PASS" signature="Verify_Credentials_link()[pri:3, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="Verify_Credentials_link" duration-ms="3223" started-at="2019-12-26T17:26:07Z" finished-at="2019-12-26T17:26:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Credentials_link -->
+        <test-method status="PASS" signature="Verify_BrokerRep_link()[pri:4, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="Verify_BrokerRep_link" duration-ms="5698" started-at="2019-12-26T17:26:47Z" finished-at="2019-12-26T17:26:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_BrokerRep_link -->
+        <test-method status="PASS" signature="Verify_AddEmployer_link()[pri:5, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="Verify_AddEmployer_link" duration-ms="4042" started-at="2019-12-26T17:28:49Z" finished-at="2019-12-26T17:28:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_AddEmployer_link -->
+        <test-method status="PASS" signature="Verify_EmployerList_link()[pri:6, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="Verify_EmployerList_link" duration-ms="2224" started-at="2019-12-26T17:28:54Z" finished-at="2019-12-26T17:28:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_EmployerList_link -->
+        <test-method status="PASS" signature="Verify_UserList_link()[pri:7, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="Verify_UserList_link" duration-ms="3399" started-at="2019-12-26T17:28:57Z" finished-at="2019-12-26T17:29:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_UserList_link -->
+        <test-method status="PASS" signature="Verify_SearchEmployer_link()[pri:8, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="Verify_SearchEmployer_link" duration-ms="2228" started-at="2019-12-26T17:29:01Z" finished-at="2019-12-26T17:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_SearchEmployer_link -->
+        <test-method status="PASS" signature="Verify_SearchEmployee_link()[pri:9, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="Verify_SearchEmployee_link" duration-ms="2152" started-at="2019-12-26T17:29:03Z" finished-at="2019-12-26T17:29:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_SearchEmployee_link -->
+        <test-method status="PASS" signature="Employer_Tab()[pri:10, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="Employer_Tab" duration-ms="421" started-at="2019-12-26T17:29:05Z" finished-at="2019-12-26T17:29:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Employer_Tab -->
+        <test-method status="FAIL" signature="CountSummary_Tab()[pri:11, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="CountSummary_Tab" duration-ms="244" started-at="2019-12-26T17:29:06Z" finished-at="2019-12-26T17:29:06Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Count Summary] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Count Summary] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.kt.enrollez.Broker_Dashbaord_TestCase.CountSummary_Tab(Broker_Dashbaord_TestCase.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CountSummary_Tab -->
+        <test-method status="FAIL" signature="Activity_Tab()[pri:12, instance:com.kt.enrollez.Broker_Dashbaord_TestCase@5442a311]" name="Activity_Tab" duration-ms="266" started-at="2019-12-26T17:29:06Z" finished-at="2019-12-26T17:29:06Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Search] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Search] but found []
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at org.testng.Assert.assertEquals(Assert.java:200)
+	at com.kt.enrollez.Broker_Dashbaord_TestCase.Activity_Tab(Broker_Dashbaord_TestCase.java:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Activity_Tab -->
+      </class> <!-- com.kt.enrollez.Broker_Dashbaord_TestCase -->
+      <class name="com.kt.enrollez.Broker_Login_TestCase">
+        <test-method status="PASS" signature="Verify_Application_Title()[pri:1, instance:com.kt.enrollez.Broker_Login_TestCase@53b32d7]" name="Verify_Application_Title" duration-ms="20" started-at="2019-12-26T17:23:52Z" finished-at="2019-12-26T17:23:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Application_Title -->
+        <test-method status="PASS" signature="Verify_Logo()[pri:2, instance:com.kt.enrollez.Broker_Login_TestCase@53b32d7]" name="Verify_Logo" duration-ms="84" started-at="2019-12-26T17:24:37Z" finished-at="2019-12-26T17:24:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Logo -->
+        <test-method status="PASS" signature="Verify_Application_Url()[pri:3, instance:com.kt.enrollez.Broker_Login_TestCase@53b32d7]" name="Verify_Application_Url" duration-ms="12" started-at="2019-12-26T17:26:07Z" finished-at="2019-12-26T17:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Application_Url -->
+        <test-method status="PASS" signature="Verify_Placeholder_ofAllfields()[pri:4, instance:com.kt.enrollez.Broker_Login_TestCase@53b32d7]" name="Verify_Placeholder_ofAllfields" duration-ms="86" started-at="2019-12-26T17:26:47Z" finished-at="2019-12-26T17:26:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Placeholder_ofAllfields -->
+        <test-method status="PASS" signature="Verify_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.kt.enrollez.Broker_Login_TestCase@53b32d7]" name="Verify_Login" duration-ms="4562" started-at="2019-12-26T17:28:30Z" data-provider="LoginData" finished-at="2019-12-26T17:28:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KTB01]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DatawithBlank]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Login was unsuccessful. Please check your login information and retry.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login -->
+        <test-method status="PASS" signature="Verify_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.kt.enrollez.Broker_Login_TestCase@53b32d7]" name="Verify_Login" duration-ms="3514" started-at="2019-12-26T17:28:34Z" data-provider="LoginData" finished-at="2019-12-26T17:28:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KTB02]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[invalidData]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Login was unsuccessful. Please check your login information and retry.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login -->
+        <test-method status="PASS" signature="Verify_Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.kt.enrollez.Broker_Login_TestCase@53b32d7]" name="Verify_Login" duration-ms="11414" started-at="2019-12-26T17:28:38Z" data-provider="LoginData" finished-at="2019-12-26T17:28:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[KTB03]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ValidData]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TestBroker]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345678]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Welcome TestBroker!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Login -->
+      </class> <!-- com.kt.enrollez.Broker_Login_TestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
